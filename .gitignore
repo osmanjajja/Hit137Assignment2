@@ -1,5 +1,39 @@
-extracted_text.txt
-CSV1.csv 
-CSV2.csv 
-CSV3.csv 
-CSV4.csv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+*.venv/
+
+# VS Code settings and workspace files
+.vscode/
+.code-workspace
+
+# Environment variables and Python-specific cache
+.env
+*.env
+*.log
+
+# Build and dependency management files
+build/
+dist/
+*.egg-info/
+
+# CSV files generated for analysis (if temporary)
+*.csv
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore output images if not necessary to version control
+*.png
+*.jpg
+
+# Ignore Git ignore file if specified
+.gitignore
+# Ignore all .txt files
+*.txt
