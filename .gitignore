@@ -29,9 +29,7 @@ dist/
 Thumbs.db
 Desktop.ini
 
-# Ignore output images if not necessary to version control
-*.png
-*.jpg
+
 
 # Ignore Git ignore file if specified
 .gitignore
